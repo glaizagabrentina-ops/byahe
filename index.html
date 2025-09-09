@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biyahe - Explore the Philippines</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Biyahe</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Discover the Beauty of the Philippines</h1>
+    <p>Book your next adventure with Biyahe</p>
+    <a href="#booking" class="btn">Start Booking</a>
+  </section>
+
+  <!-- Destinations -->
+  <section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/boracay.jpg" alt="Boracay">
+        <h3>Boracay</h3>
+        <p>Famous for white sand beaches and vibrant nightlife.</p>
+      </div>
+      <div class="card">
+        <img src="images/palawan.jpg" alt="Palawan">
+        <h3>Palawan</h3>
+        <p>Home to stunning lagoons, caves, and the Underground River.</p>
+      </div>
+      <div class="card">
+        <img src="images/banaue.jpg" alt="Banaue Rice Terraces">
+        <h3>Banaue</h3>
+        <p>Experience the breathtaking rice terraces built by ancestors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="booking">
+    <h2>Book Your Trip</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="destination">Choose Destination</label>
+      <select id="destination">
+        <option value="boracay">Boracay</option>
+        <option value="palawan">Palawan</option>
+        <option value="banaue">Banaue</option>
+      </select>
+
+      <label for="date">Travel Date</label>
+      <input type="date" id="date" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Biyahe</h2>
+    <p>Biyahe is your trusted travel companion for exploring the Philippines. 
+       We bring you closer to the country’s natural wonders and cultural treasures.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Biyahe | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
